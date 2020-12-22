@@ -1,0 +1,553 @@
+body{
+	margin:0;
+	background: #FFF9C5;
+	font-family: "roboto", sans-serif;
+}
+
+.content {
+	width:1180px;
+	max-width:90%;
+	margin:0 auto;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+/*header*/
+	.header_content{
+		display: flex;
+	}
+
+	.header {
+		width:100%;
+		background: #F4A460;
+	}
+
+	.logo {
+		margin:auto 0;
+	}
+
+	/*Меню*/
+
+	.menu_link:hover{
+		text-decoration: underline;
+	}
+
+	ul {
+		display: flex;
+	}
+
+	li {
+		list-style-type: none;
+		font-size:24px;
+	}
+
+	.menu {
+		margin: 9px auto;
+	}
+
+	.str_menu_el {
+		font-weight: 500;
+	}
+
+	.menu_element {
+		font-weight:normal;
+		margin-left: 23px;
+	}
+
+	/*Поиск*/
+	* {box-sizing: border-box;}
+
+	form {
+		display:flex;
+		margin: auto;
+	}
+
+	.form_search {
+		width:380px;
+		height:42px;
+		border-radius:70px 0 0 70px;
+		border:none;
+		outline: none;
+		padding-left:15px;
+	}
+
+	.magnifier{
+		border-radius:0 70px 70px 0;
+		border:none;
+		width: 50px;
+		height:42px;
+		background:white;
+		outline: none;
+		background-image:url(images/icons/search_icon.png);
+		background-position: center;
+	}
+
+	.magnifier:hover {
+		background-image:url(images/icons/search_icon2.png);
+	}
+
+	/*Корзина*/
+	.basket{
+		width:60px;
+		height:35px;
+		margin: auto 0 auto 86px;
+		background:none;
+		border:none;
+		outline: none;
+		background-image:url(images/icons/basket.png);
+		background-position: center;
+	}
+
+	.basket:hover{
+		width:62px;
+		height:36px;
+		background-image:url(images/icons/basket2.png);
+	}
+
+/*slider+*/
+	.slide{
+		width:1180px;
+		height:631px;
+		border: 2px solid black;
+		margin:50px auto 25px auto;
+	}
+
+	.slider{
+		border-bottom: 4px solid black;
+	}
+
+/*Products*/
+	.heading{
+		font-size:72px;
+		font-weight:600;
+		margin-top:50px;
+	}
+
+	.grid_line{
+		display: flex;
+		margin-top:71px;
+	}
+
+	.grid_photo{
+		width:355px; 
+		height:356px;
+	}
+
+	.move{
+		margin-left:58px;
+	}
+
+	.name_product{
+		font-size:36px;
+		margin-top:30px;
+		font-weight:600;
+	}
+
+	.cost_product{
+		font-size:24px;
+		margin-top:18px;
+	}
+
+	.grid{
+		margin-bottom:25px;
+	}
+
+	.products{
+		border-bottom: 4px solid black;
+	}
+
+/*services*/
+.text {
+	margin-top:52px;
+	font-size:36px;
+}
+
+.form_request {
+	background-color:#F4A460;
+	height:564px;
+	margin-top:41px;
+	padding-top:83px;
+	margin-bottom:25px;
+}
+
+.field_name {
+	margin-left:75px;
+	display:block;
+	width:355px;
+	height:80px;
+	border-radius:70px;
+	border:none;
+	outline:none;
+	padding-left:15px;
+}
+
+.field_phone {
+	margin-left:75px;
+	display:block;
+	width:355px;
+	height:80px;
+	border-radius:70px;
+	border:none;
+	outline:none;
+	padding-left:15px;
+}
+
+.OK {
+	margin-left:229px;
+	width:201px;
+	height:80px;
+	margin-top:89px;
+	border-radius:70px;
+	border:none;
+	
+	background-color:#FF0000;
+	font-size:48px;
+	color:white;
+}
+
+.field_text {
+	font-size:36px;
+	margin:auto 0 auto 14px;
+}
+
+.field_with_text_name {
+	display:flex;
+}
+
+.field_with_text_phone {
+	display:flex;
+	margin-top:118px;
+}
+
+.services {
+	border-bottom: 4px solid black;
+}
+
+/*description*/
+.maps {
+	display:flex;
+	margin-top:94px;
+}
+
+.location {
+	margin-left:24px;
+	font-size:36px;
+}
+
+.adress {
+	margin-top:74px;
+}
+
+.description {
+	margin-bottom:25px;
+}
+
+/*running title*/
+.running_title {
+	padding-top:30px;
+	height:250px;
+	background-color:#F4A460;
+}
+
+.columns {
+	display:flex;
+}
+
+.column_ {
+	margin-left:130px;
+}
+
+.column_title {
+	font-size:36px;
+}
+
+.column_text {
+	font-size:24px;
+}
+
+.column_text_top {
+	margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Стили для планшетов*/
+@media screen and (max-width: 768px) {
+	.content {
+		width:768px;
+		max-width:90%;
+		margin:0 auto;
+	}
+
+	/*header*/
+		.header_content{
+			display: flex;
+		}
+
+		.header {
+			width:100%;
+			background: #F4A460;
+		}
+
+		.logo {
+			margin:auto 0;
+		}
+
+		/*Меню*/
+
+		.menu_link:hover{
+			text-decoration: underline;
+		}
+
+		ul {
+			display: flex;
+		}
+
+		li {
+			list-style-type: none;
+			font-size:18px;
+		}
+
+		.menu {
+			margin: 9px 5px;
+		}
+
+		.str_menu_el {
+			font-weight: 500;
+		}
+
+		.menu_element {
+			font-weight:normal;
+			margin-left: 10px;
+		}
+
+		/*Поиск*/
+		* {box-sizing: border-box;}
+
+		form {
+			display:flex;
+			margin: auto;
+		}
+
+		.form_search {
+			width:180px;
+			height:42px;
+			border-radius:70px 0 0 70px;
+			border:none;
+			outline: none;
+			padding-left:15px;
+		}
+
+		.magnifier{
+			border-radius:0 70px 70px 0;
+			border:none;
+			width: 50px;
+			height:42px;
+			background:white;
+			outline: none;
+			background-image:url(images/icons/search_icon.png);
+			background-position: center;
+		}
+
+		.magnifier:hover {
+			background-image:url(images/icons/search_icon2.png);
+		}
+
+		/*Корзина*/
+		.basket{
+			width:60px;
+			height:35px;
+			margin: auto 0 auto auto;
+			background:none;
+			border:none;
+			outline: none;
+			background-image:url(images/icons/basket.png);
+			background-position: center;
+		}
+
+		.basket:hover{
+			width:62px;
+			height:36px;
+			background-image:url(images/icons/basket2.png);
+		}
+
+	/*slider*/
+		.slide{
+			width:100%;
+			height:350px;
+			border: 2px solid black;
+			margin:50px auto 25px auto;
+		}
+
+		.slider{
+			border-bottom: 4px solid black;
+		}
+
+	/*Products*/
+		.heading{
+			font-size:54px;
+			font-weight:600;
+			margin-top:50px;
+		}
+
+		.grid_line{
+			display: flex;
+			margin-top:71px;
+		}
+
+		.grid_photo{
+			width:200px; 
+			height:200px;
+		}
+
+		.move{
+			margin-left:40px;
+		}
+
+		.name_product{
+			font-size:27px;
+			margin-top:30px;
+			font-weight:600;
+		}
+
+		.cost_product{
+			font-size:18px;
+			margin-top:18px;
+		}
+
+		.grid{
+			margin-bottom:25px;
+		}
+
+		.products{
+			border-bottom: 4px solid black;
+		}
+
+	/*services*/
+	.text {
+		margin-top:52px;
+		font-size:27px;
+	}
+
+	.form_request {
+		background-color:#F4A460;
+		height:400px;
+		margin-top:41px;
+		padding-top:50px;
+		margin-bottom:25px;
+	}
+
+	.field_name {
+		margin-left:75px;
+		display:block;
+		width:280px;
+		height:60px;
+		border-radius:70px;
+		border:none;
+		outline:none;
+		padding-left:15px;
+	}
+
+	.field_phone {
+		margin-left:75px;
+		display:block;
+		width:280px;
+		height:60px;
+		border-radius:70px;
+		border:none;
+		outline:none;
+		padding-left:15px;
+	}
+
+	.OK {
+		margin-left:252px;
+		width:100px;
+		height:60px;
+		margin-top:40px;
+		border-radius:70px;
+		border:none;
+		
+		background-color:#FF0000;
+		font-size:36px;
+		color:white;
+	}
+
+	.field_text {
+		font-size:27px;
+		margin:auto 0 auto 14px;
+	}
+
+	.field_with_text_name {
+		display:flex;
+	}
+
+	.field_with_text_phone {
+		display:flex;
+		margin-top:80px;
+	}
+
+	.services {
+		border-bottom: 4px solid black;
+	}
+
+	/*description*/
+	.maps {
+		display:flex;
+		margin-top:94px;
+	}
+
+	.location {
+		margin-left:24px;
+		font-size:27px;
+	}
+
+	.adress {
+		margin-top:50px;
+	}
+
+	.description {
+		margin-bottom:25px;
+	}
+
+	iframe {
+		width:320px;
+		height:320px;
+	}
+
+	/*running title*/
+	.running_title {
+		padding-top:30px;
+		height:200px;
+		background-color:#F4A460;
+	}
+
+	.columns {
+		display:flex;
+	}
+
+	.column_ {
+		margin-left:30px;
+	}
+
+	.column_title {
+		font-size:20px;
+	}
+
+	.column_text {
+		font-size:14px;
+	}
+
+	.column_text_top {
+		margin-top:20px;
+	}
+}
